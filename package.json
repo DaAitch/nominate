@@ -1,0 +1,40 @@
+{
+  "name": "nominate",
+  "version": "1.0.0",
+  "description": "Gives anonymous functions a name or renames functions at runtime.",
+  "main": "dist/nominate.js",
+  "typings": "dist/nominate.d.ts",
+  "scripts": {
+    "test": "karma start ./karma.conf.js --browsers PhantomJS",
+    "compile": "tsc && tsc --declaration",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaAitch/nominate.git"
+  },
+  "keywords": [
+    "function"
+  ],
+  "author": "Philipp Renoth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaAitch/nominate/issues"
+  },
+  "homepage": "https://github.com/DaAitch/nominate#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.35",
+    "@types/node": "^6.0.45",
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "ts-loader": "^0.9.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
+  }
+}
